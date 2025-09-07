@@ -38,6 +38,8 @@ export default function HeroSection() {
                     <img src="undraw_browsing_z5g5.svg" alt="um cara gostoso" className="rounded-lg w-100" />
                 </div>
 
+                
+
                 <AlertDialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
                     <AlertDialogContent>
                         <AlertDialogHeader>

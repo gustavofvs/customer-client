@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Customer Messages
 
-## Getting Started
+Esta é uma landing page para o "Customer Messages", um serviço (fictício) projetado para ajudar empresas a transformar clientes de uma só vez em fãs para sempre. A plataforma permite o envio de mensagens inteligentes e automatizadas via WhatsApp para reengajar clientes e incentivá-los a retornar à sua loja.
 
-First, run the development server:
+Este repositório contém apenas o código da landing page.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Começando
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Para executar o projeto localmente, você precisará do [Node.js](https://nodejs.org/) instalado. Você pode usar seu gerenciador de pacotes preferido (`npm`, `yarn`, `pnpm` ou `bun`).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Instalação e Execução
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1.  **Clone o repositório:**
+    ```sh
+    git clone https://github.com/gustavofvs/customer-client.git
+    ```
 
-## Learn More
+2.  **Navegue até o diretório do projeto:**
+    ```sh
+    cd customer-client
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    # ou
+    yarn install
+    # ou
+    pnpm install
+    # ou
+    bun install
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4.  **Execute o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    # ou
+    yarn dev
+    # ou
+    pnpm dev
+    # ou
+    bun dev
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5.  Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o resultado.
 
-## Deploy on Vercel
+## 🛠️ Construído com
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+*   [Next.js](https://nextjs.org/) - Framework React
+*   [TypeScript](https://www.typescriptlang.org/) - JavaScript com tipos
+*   [Tailwind CSS](https://tailwindcss.com/) - Framework CSS
+*   [Shadcn/ui](https://ui.shadcn.com/) - Componentes de UI
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
